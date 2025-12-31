@@ -111,6 +111,28 @@ h1 {
     box-shadow: 0 0 25px #ff00ff;
 }
 
+/* Music control */
+.music-control {
+    margin: 10px 0 20px 0;
+}
+
+.music-control button {
+    padding: 8px 16px;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid #ff00ff;
+    color: #e0e0ff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.music-control button:hover {
+    background: #ff00ff;
+    color: black;
+    box-shadow: 0 0 25px #ff00ff;
+}
+
 /* Images */
 .uniform-img {
     width: 220px;
